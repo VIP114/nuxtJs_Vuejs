@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>{{$route.params.id}} page video</h1>
-        {{video.name}}
+        <nuxt-child :video="video"/>
     </div>
 </template>
 
@@ -29,7 +28,6 @@
                  return this.videos.find(v => v.id == this.$route.params.id)
             }
         },
-        
     }
 </script>
 
