@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar/>
         <h3>to show contact in all file</h3>
         <nuxt-child/>
     </div>
